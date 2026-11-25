@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block t %}Relatos{% endblock %}{% block c %}
+<div class="hero"><span class="tag">Vozes de Gandu</span><h1>Relatos de referência</h1><p>Problemas com a Coelba e soluções que já funcionaram na região.</p></div>
+<div class="filtro"><a href="/relatos?tipo=todos" class="{% if tipo == 'todos' %}on{% endif %}">Todos</a><a href="/relatos?tipo=problema" class="{% if tipo == 'problema' %}on{% endif %}">Problemas</a><a href="/relatos?tipo=solucao" class="{% if tipo == 'solucao' %}on{% endif %}">Soluções</a></div>
+{% for r in relatos %}<div class="relato"><div class="fonte">{{ r.local }}</div><div class="quem">{{ r.pessoa }}</div><blockquote>{{ r.texto }}</blockquote><div class="licao">{{ r.licao }}</div></div>{% endfor %}
+{% endblock %}

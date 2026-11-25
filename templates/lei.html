@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block t %}Lei 14.300{% endblock %}{% block c %}
+<div class="hero"><span class="tag">Marco legal</span><h1>Lei 14.300/2022</h1><p>O que muda no Fio B e por que 2026 é decisivo para quem quer instalar solar.</p></div>
+<div class="sec"><h2>Cronograma do Fio B</h2><table class="tabela"><thead><tr><th>Ano</th><th class="r">Percentual de referência do Fio B (2029: hipótese)</th></tr></thead><tbody>{% for f in d.lei.fio_b %}<tr><td>{{ f.ano }}</td><td class="r">{{ f.pct }}%</td></tr>{% endfor %}</tbody></table><div class="destaque">{{ d.lei.impacto }}</div></div>
+<div class="sec"><h2>Direito adquirido</h2><p>{{ d.lei.direito_adquirido }}</p></div>
+<div class="sec"><h2>O que isso significa na prática</h2><ul class="ben"><li><span class="dot"></span>Quem instala em 2026 paga 60% do Fio B. Em 2027, 75%. Em 2028, 90%. Para 2029, a regra depende da regulamentação aplicável.</li><li><span class="dot"></span>A economia ainda é significativa, mas o payback aumenta a cada ano.</li><li><span class="dot"></span>Quem protocolou acesso até 06/01/2023 tem isenção até 2045.</li><li><span class="dot"></span>Para Gandu, a irradiação alta compensa parte do impacto do Fio B.</li></ul></div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{
+  "gandu": {
+    "populacao_2022": 32178, "populacao_2025": 34051, "area_km2": 229.661,
+    "densidade": 140.11, "idhm": 0.632, "pib_per_capita": 18604.11,
+    "escolarizacao": 99.05, "mortalidade_infantil": 7.16, "distancia_salvador": 290,
+    "regiao": "Baixo Sul Baiano", "bioma": "Mata Atlantica",
+    "economia": ["Cacau", "Pecuaria", "Comercio regional"]
+  },
+  "solar": {
+    "conexoes": 914, "potencia_mwp": 6.6, "posicao_ba": "98 de 417",
+    "irradiacao": 4.84, "payback_5kwp": "4,8 anos", "tarifa": 0.878,
+    "fonte": "ANEEL GD / Calculadora Energia / INPE-LABREN"
+  },
+  "bahia": {
+    "municipios_gd": 417, "potencia_gd_mw": 2900, "unidades_geradoras": 327000,
+    "empregos_solar": 89000, "investimentos": "R$ 10,69 bi", "potencial_futuro": "R$ 61 bi / 500 mil empregos"
+  },
+  "lei": {
+    "nome": "Lei 14.300/2022 - Marco Legal da GD",
+    "fio_b": [
+      {"ano": 2023, "pct": 15}, {"ano": 2024, "pct": 30}, {"ano": 2025, "pct": 45},
+      {"ano": 2026, "pct": 60}, {"ano": 2027, "pct": 75}, {"ano": 2028, "pct": 90},
+      {"ano": 2029, "pct": 100}
+    ],
+    "direito_adquirido": "Protocolo ate 06/01/2023 garante isencao ate 2045",
+    "impacto": "Quem instala em 2026 paga 60% do Fio B sobre energia injetada. Payback aumenta mas ainda e atrativo em Gandu."
+  },
+  "relatos": [
+    {"tipo": "problema", "local": "Gandu-BA (Reclame Aqui, fev/2025)", "pessoa": "Morador do centro", "texto": "Falta de energia por mais de 24 horas. Sete pedidos de reparo em um unico dia, todos com protocolos. A empresa resolveu no dia seguinte: conector folgado. Perdeu alimentos da geladeira.", "licao": "Qualidade do fornecimento fragil. Quem depende de equipamentos medicos ou tem negocio proprio sofre."},
+    {"tipo": "problema", "local": "Gandu-BA (Reclame Aqui, dez/2024)", "pessoa": "Morador (relato anonimizado)", "texto": "Teve energia cortada mesmo apos acordo de pagamento. Ficou mais de uma semana sem luz. Ele e a esposa sao diabeticos e dependem de refrigeracao para a insulina.", "licao": "Para familias vulneraveis, falta de energia nao e inconveniencia: e risco de vida."},
+    {"tipo": "solucao", "local": "Gloria-BA (400 km de Gandu)", "pessoa": "Beneficiária (relato anonimizado)", "texto": "Conta de luz caiu de R$ 160 para quase nada. Projeto instalou 74 sistemas residenciais e 10 para pocos, priorizando familias com pelo menos um membro autista. Mao de obra local e assistencia tecnica garantida.", "licao": "Modelo que funcionou: solar comunitario, foco em quem mais precisa, acompanhamento tecnico."},
+    {"tipo": "solucao", "local": "Cedro, Gandu-BA (2023)", "pessoa": "Vereador Fabio de Raquel e agricultor Jeias", "texto": "Prefeito e vereador foram a SEINFRA em Salvador buscar autorizacao para ligacao eletrica de 20 familias de pequenos agricultores. Medicao ja feita. Aguardavam autorizacao para ter dignidade e dar aos filhos dias melhores.", "licao": "Ainda ha comunidades em Gandu sem energia. Acesso basico e pre-condicao para qualquer projeto solar."}
+  ],
+  "beneficios": [
+    "Economia depende do perfil de consumo, tarifa e compensacao",
+    "Payback de 4,8 anos em Gandu (sistema 5 kWp) - um dos melhores do pais",
+    "89 mil empregos no setor solar na Bahia, potencial para 500 mil",
+    "Protecao contra reajustes anuais da Coelba",
+    "Independencia para pocos e bombeamento rural",
+    "Reducao de CO2: 5 kWp evita 0,6 tonelada/ano"
+  ],
+  "desafios": [
+    "Qualidade do fornecimento: relatos de faltas prolongadas e cortes indevidos",
+    "Custo inicial: investimento depende de cotacao e dimensionamento",
+    "Fio B crescente: quem instalar depois de 2026 pagara mais",
+    "Desigualdade: nem todos tem telhado proprio ou credito"
+  ],
+  "passos_coelba": [
+    "Contratar empresa com ART para projeto eletrico",
+    "Protocolar solicitacao de acesso de microgeracao na Neoenergia Coelba",
+    "Aguardar aprovacao e instalacao do medidor bidirecional",
+    "Sistema entra em operacao e compensacao comeca na fatura seguinte"
+  ],
+  "fontes": [
+    {"nome": "IBGE - Gandu", "url": "https://www.ibge.gov.br/cidades-e-estados/ba/gandu.html"},
+    {"nome": "ANEEL GD", "url": "https://ecoaliza.com.br/ecodata/ecowatt-solar-cidades/2911204/"},
+    {"nome": "SDE-BA Informe Solar 2026", "url": "https://www.ba.gov.br/sde/sites/site-sde/files/2026-08/Informes%20executivos%20COINDE%20-%20Solar_Agosto.pdf"},
+    {"nome": "Lei 14.300 - Fio B", "url": "https://www.helexia.com.br/fio-b-em-60-em-2026-o-que-muda-na-geracao-distribuida-de-energia-solar/"},
+    {"nome": "Calculadora Energia - Gandu", "url": "https://calculadoraenergia.com.br/solar/ba/gandu"},
+    {"nome": "Reclame Aqui - Neoenergia", "url": "https://www.reclameaqui.com.br/neoenergia/"}
+  ]
+}
